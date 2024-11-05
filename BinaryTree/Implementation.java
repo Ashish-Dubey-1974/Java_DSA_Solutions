@@ -33,10 +33,10 @@ class Implementation{
             System.out.println("Do you want to enter right of "+node.value);
             boolean right = scanner.nextBoolean();
             if(right){
-                System.out.println("Enter the value of the left of "+node.value);
+                System.out.println("Enter the value of the right of "+node.value);
                 int value = scanner.nextInt();
-                node.left = new Node(value);
-                populate(scanner, node.left);
+                node.right = new Node(value);
+                populate(scanner, node.right);
             }
         }
         public void display(){
@@ -62,7 +62,7 @@ class Implementation{
                 for(int i=0;i<level-1;i++){
                     System.out.print("|/t/t");
                 }
-                System.out.println("|------->"+node.value);
+                System.out.println("|----->"+node.value);
             }else{
                 System.out.println(node.value);
             }

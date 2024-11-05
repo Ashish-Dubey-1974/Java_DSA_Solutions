@@ -5,6 +5,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         Implementation tree = new Implementation();
         tree.populate(scanner);
-        tree.prettyDisplay();
+        tree.display();//Fucntion to display a tree
+        tree.prettyDisplay();// function to display a tree inn Style (' ^ ')
     }
 }
