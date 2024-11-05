@@ -50,5 +50,22 @@ class Implementation{
             display(node.left, indent+"\t");
             display(node.right, indent+"\t");
         }
+        public void prettyDisplay(){
+            prettyDisplay(root,0);
+        }
+        private void prettyDisplay(Node node,int level){
+            if(node==null){
+                return;
+            }
+            prettyDisplay(node.right, level+1);
+            if(level!=0){
+                for(int i=0;i<level-1;i++){
+                    System.out.print("|/t/t");
+                }
+                System.out.println("|------->"+node.value);
+            }else{
+                System.out.println(node.value);
+            }
+        }
 
 }

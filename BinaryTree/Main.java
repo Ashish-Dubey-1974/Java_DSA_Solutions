@@ -5,6 +5,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         Implementation tree = new Implementation();
         tree.populate(scanner);
-        tree.display();
+        tree.prettyDisplay();
     }
 }
