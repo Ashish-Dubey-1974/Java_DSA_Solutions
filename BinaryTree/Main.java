@@ -6,6 +6,6 @@ public class Main {
         Implementation tree = new Implementation();
         tree.populate(scanner);
         tree.display();//Fucntion to display a tree
-        tree.prettyDisplay();// function to display a tree inn Style (' ^ ')
+        tree.prettyDisplay();// function to display a tree with Styling (' ^ ')
     }
 }
