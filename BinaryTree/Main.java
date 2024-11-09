@@ -17,8 +17,5 @@ public class Main {
 		BinaryTree.populate(nums);
 		BinaryTree.display();
 
-=======
-        tree.prettyDisplay();// function to display a tree with Styling (' ^ ')
->>>>>>> 900a4f1ddc5315811bdcd25ac05ddc2ef1a9fbf4
     }
 }
