@@ -63,7 +63,7 @@ class Implementation{
                     System.out.print("|/t/t");
                 }
                 System.out.println("|----->"+node.value);
-            }else{
+            }else
                 System.out.println(node.value);
             }
         }
