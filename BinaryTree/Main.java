@@ -6,10 +6,10 @@ public class Main {
         // Implementation of BinaryTree
         Implementation tree = new Implementation();
         tree.populate(scanner);
-        tree.display();//Fucntion to display a tree
-        tree.prettyDisplay();// function to display a tree inn Style (' ^ ')
+        tree.display();          //Fucntion to display a tree
+        tree.prettyDisplay();    // function to display a tree inn Style (' ^ ')
 
-//---------------------------------------------------------------------------------------------------------------------------\\
+//----------------------------------------------------------------------------------------------------\\
 
         //Implamentation of Binary Search Tree
         BST BinaryTree = new BST();
